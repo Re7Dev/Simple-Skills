@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SkillManager : MonoBehaviour
 {
+    public int SkillPoints;
     public int[] UnlockedSkills = new int[1];
 
     private void Start()
